@@ -1,12 +1,13 @@
 name: Terraform Pipeline
 
-on: 
+on:
   pull_request:
-    branches 
+    branches:
       - main
   push:
-    branches 
+    branches:
       - main
+      
 jobs:
   terraform:
     runs-on: ubuntu-latest
