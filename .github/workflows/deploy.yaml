@@ -43,4 +43,4 @@ jobs:
           AWS_ACCESS_KEY_ID: mock_key
           AWS_SECRET_ACCESS_KEY: mock_secret
           AWS_DEFAULT_REGION: us-east-1
-        run: aws --endpoint-url=https://localhost:4566 s3 ls | grep "pipeline"
+        run: aws --endpoint-url=http://localhost:4566 s3 ls | grep "pipeline"
