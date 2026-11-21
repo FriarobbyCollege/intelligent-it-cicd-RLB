@@ -1,4 +1,4 @@
-name: Terraform Pipeline
+name: Terraform Pipeline on Branch
 
 on:
   pull_request:
